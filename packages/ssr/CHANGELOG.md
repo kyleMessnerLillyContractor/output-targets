@@ -1,3 +1,18 @@
+## [0.4.0](https://github.com/stenciljs/output-targets/compare/@stencil/ssr@0.3.2...@stencil/ssr@0.4.0) (2026-06-25)
+
+
+### :rocket: Enhancement
+
+* **ssr:** compat with stencil v5 ([940a114](https://github.com/stenciljs/output-targets/commit/940a114269d08ee820e25a4bc8a37071b6bcd495))
+* v5 compatibility  ([#822](https://github.com/stenciljs/output-targets/issues/822)) ([1f981d0](https://github.com/stenciljs/output-targets/commit/1f981d061a90abd54e848fe685240f50add43a10))
+
+## [0.3.2](https://github.com/stenciljs/output-targets/compare/@stencil/ssr@0.3.1...@stencil/ssr@0.3.2) (2026-05-28)
+
+
+### :bug: Bug Fix
+
+* **ssr:** updates import merging to account for side effect imports ([#803](https://github.com/stenciljs/output-targets/issues/803)) ([dc51393](https://github.com/stenciljs/output-targets/commit/dc513932b77db7dc74c2e308b899c70f8c9727e0))
+
 ## [0.3.1](https://github.com/stenciljs/output-targets/compare/@stencil/ssr@0.3.0...@stencil/ssr@0.3.1) (2026-04-09)
 
 

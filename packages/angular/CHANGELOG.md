@@ -1,3 +1,25 @@
+## [1.4.1](https://github.com/stenciljs/output-targets/compare/@stencil/angular-output-target@1.4.0...@stencil/angular-output-target@1.4.1) (2026-07-14)
+
+
+### :bug: Bug Fix
+
+* **angular:** stop guessing package manager and inserting `workspace` links ([88eb3ce](https://github.com/stenciljs/output-targets/commit/88eb3ce9a513d6bdde2b6f89c58ec6760752bd57))
+
+## [1.4.0](https://github.com/stenciljs/output-targets/compare/@stencil/angular-output-target@1.3.2...@stencil/angular-output-target@1.4.0) (2026-06-25)
+
+
+### :rocket: Enhancement
+
+* **angular:** compat with stencil v5 ([2d95eba](https://github.com/stenciljs/output-targets/commit/2d95ebaca406ec7fe4db495704a6ea09f996eecd))
+* v5 compatibility  ([#822](https://github.com/stenciljs/output-targets/issues/822)) ([1f981d0](https://github.com/stenciljs/output-targets/commit/1f981d061a90abd54e848fe685240f50add43a10))
+
+## [1.3.2](https://github.com/stenciljs/output-targets/compare/@stencil/angular-output-target@1.3.1...@stencil/angular-output-target@1.3.2) (2026-06-05)
+
+
+### :bug: Bug Fix
+
+* **angular:** use per-component CustomEvent type for event outputs ([#814](https://github.com/stenciljs/output-targets/issues/814)) ([e049774](https://github.com/stenciljs/output-targets/commit/e0497746ed3b187374596915fa3d05001d11435d))
+
 ## [1.3.1](https://github.com/stenciljs/output-targets/compare/@stencil/angular-output-target@1.3.0...@stencil/angular-output-target@1.3.1) (2026-04-09)
 
 

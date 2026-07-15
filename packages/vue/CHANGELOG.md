@@ -1,3 +1,26 @@
+## [0.14.1](https://github.com/stenciljs/output-targets/compare/@stencil/vue-output-target@0.14.0...@stencil/vue-output-target@0.14.1) (2026-07-14)
+
+
+### :bug: Bug Fix
+
+* **vue:** stop guessing package manager and inserting `workspace` links ([2aa84f7](https://github.com/stenciljs/output-targets/commit/2aa84f741405c79253fe74ff6ece9e3531e4da1d))
+
+## [0.14.0](https://github.com/stenciljs/output-targets/compare/@stencil/vue-output-target@0.13.2...@stencil/vue-output-target@0.14.0) (2026-06-25)
+
+
+### :rocket: Enhancement
+
+* v5 compatibility  ([#822](https://github.com/stenciljs/output-targets/issues/822)) ([1f981d0](https://github.com/stenciljs/output-targets/commit/1f981d061a90abd54e848fe685240f50add43a10))
+* **vue:** compat with stencil v5 ([a5f051c](https://github.com/stenciljs/output-targets/commit/a5f051cf15a98227b129c71b035a79d5af9ff84e))
+
+## [0.13.2](https://github.com/stenciljs/output-targets/compare/@stencil/vue-output-target@0.13.1...@stencil/vue-output-target@0.13.2) (2026-05-28)
+
+
+### :bug: Bug Fix
+
+* **vue:** allow modifier key clicks on routerLink to open in new tab ([#801](https://github.com/stenciljs/output-targets/issues/801)) ([40c5a2d](https://github.com/stenciljs/output-targets/commit/40c5a2da0d4175aba2a30e11a0a5e26521810cfb))
+
+
 ## [0.13.1](https://github.com/stenciljs/output-targets/compare/@stencil/vue-output-target@0.13.0...@stencil/vue-output-target@0.13.1) (2026-02-21)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@stencil/react-output-target",
-  "version": "1.5.2",
+  "version": "1.6.1",
   "description": "React output target for @stencil/core components.",
   "author": "Ionic Team",
   "homepage": "https://stenciljs.com/",
@@ -19,6 +19,9 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
+  "stencil": {
+    "wizard": "./dist/wizard.js"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -34,6 +37,10 @@
       "types": "./dist/runtime/ssr.d.ts",
       "import": "./dist/ssr.js",
       "require": "./dist/ssr.cjs"
+    },
+    "./wizard": {
+      "types": "./dist/wizard.d.ts",
+      "import": "./dist/wizard.js"
     }
   },
   "scripts": {
@@ -43,7 +50,8 @@
     "version": "pnpm run build",
     "prettier": "prettier \"./src/**/*.{html,ts,tsx,js,jsx}\" --write",
     "release": "np",
-    "test": "vitest run",
+    "test": "vitest run && pnpm run test.types",
+    "test.types": "tsc -p tsconfig.type-tests.json",
     "test.watch": "vitest --watch",
     "coverage": "vitest run --coverage"
   },
@@ -52,24 +60,26 @@
     "url": "git+https://github.com/stenciljs/output-targets.git"
   },
   "peerDependencies": {
-    "@stencil/core": ">=3 || >= 4.0.0-beta.0 || >= 4.0.0",
+    "@stencil/core": ">=3 || >=4.0.0 || ^5.0.0 || >=5.0.0-alpha.17 <5.0.0-next.0",
     "react": "^18 || ^19",
     "react-dom": "^18 || ^19"
   },
   "devDependencies": {
+    "@stencil/cli": "^5.0.0 || >=5.0.0-alpha.17 <5.0.0-next.0",
     "@stencil/core": "4.41.0",
-    "@types/node": "^20.14.12",
-    "@types/react": "^18 || ^19",
-    "@types/react-dom": "^18 || ^19",
-    "npm-run-all2": "^6.2.4",
-    "ts-dedent": "^2.2.0",
-    "typescript": "^5.4.4",
-    "vite": "^5.0.0",
-    "vite-plugin-dts": "^3.8.1"
+    "@types/node": "^20.19.43",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "npm-run-all2": "^6.2.6",
+    "stencil-output-targets-shared": "workspace:*",
+    "ts-dedent": "^2.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "vite-plugin-dts": "^3.9.1"
   },
   "dependencies": {
-    "@lit/react": "^1.0.7",
-    "html-react-parser": "^5.2.2",
+    "@lit/react": "^1.0.8",
+    "html-react-parser": "^5.2.17",
     "react-style-stringify": "^1.2.0",
     "ts-morph": "^28.0.0"
   },

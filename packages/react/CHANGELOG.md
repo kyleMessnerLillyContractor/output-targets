@@ -1,3 +1,35 @@
+## [1.6.1](https://github.com/stenciljs/output-targets/compare/@stencil/react-output-target@1.6.0...@stencil/react-output-target@1.6.1) (2026-07-14)
+
+
+### :bug: Bug Fix
+
+* **react:** guard resolveType against exotic components and rendered SSR elements ([#809](https://github.com/stenciljs/output-targets/issues/809)) ([8d71209](https://github.com/stenciljs/output-targets/commit/8d712093b23aea34420c58370c5e1de0949662d5))
+* **react:** stop guessing package manager and inserting `workspace` links ([11b5eb1](https://github.com/stenciljs/output-targets/commit/11b5eb1895f4e1a23fdcee9fb0fe445acfd00e06))
+
+## [1.6.0](https://github.com/stenciljs/output-targets/compare/@stencil/react-output-target@1.5.3...@stencil/react-output-target@1.6.0) (2026-06-25)
+
+
+### :rocket: Enhancement
+
+* **react:** compat with stencil v5 ([3f82413](https://github.com/stenciljs/output-targets/commit/3f82413af6d440b33c3b14192bc53af65bf860c8))
+* **react:** reflect required props in generated React component types ([#821](https://github.com/stenciljs/output-targets/issues/821)) ([ab922ee](https://github.com/stenciljs/output-targets/commit/ab922eee6f8d27b76397686de34ffa906529c202))
+* v5 compatibility  ([#822](https://github.com/stenciljs/output-targets/issues/822)) ([1f981d0](https://github.com/stenciljs/output-targets/commit/1f981d061a90abd54e848fe685240f50add43a10))
+
+## [1.5.3](https://github.com/stenciljs/output-targets/compare/@stencil/react-output-target@1.5.2...@stencil/react-output-target@1.5.3) (2026-06-05)
+
+
+### :bug: Bug Fix
+
+* **react:** emit components.server.ts barrel when esModules + hydrateModule are set ([#805](https://github.com/stenciljs/output-targets/issues/805)) ([e9a4802](https://github.com/stenciljs/output-targets/commit/e9a4802325dd75decbe07a5bbff9756398f44f46))
+
+## [1.5.3](https://github.com/stenciljs/output-targets/compare/@stencil/react-output-target@1.5.1...@stencil/react-output-target@1.5.2) (2026-05-28)
+
+
+### :bug: Bug Fix
+
+* **react:** avoid bundling hydrate module into client graph ([#797](https://github.com/stenciljs/output-targets/issues/797)) ([865cd52](https://github.com/stenciljs/output-targets/commit/865cd522b728a09969a76fef1ab755bbe6c25ab5))
+* **react:** Update to latest version of ts-morph 28.0.0 ([#798](https://github.com/stenciljs/output-targets/issues/798)) ([ed52811](https://github.com/stenciljs/output-targets/commit/ed5281177542933ebe573e6f3846ff78fa69b652))
+
 ## [1.5.2](https://github.com/stenciljs/output-targets/compare/@stencil/react-output-target@1.5.1...@stencil/react-output-target@1.5.2) (2026-04-27)
 
 
